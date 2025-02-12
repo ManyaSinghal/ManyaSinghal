@@ -9,8 +9,11 @@ const a = (light: string, dark?: string): Asset =>
 
 const Assets = {
 	AWS: a('aws.svg'),
+	accenture : a('accenture.png'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
+	JV: a('JV.png'),
+	obs: a('obs.png'),
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
 	Django: a('django.svg'),
@@ -18,6 +21,9 @@ const Assets = {
 	Flask: a('flask.svg'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
+	KPMG: a('KPMG.png'),
+	Techm : a('Techm.png'),
+	ccsu: a('ccsu.png'),
 	Neo4j: a('neo4j.svg'),
 	Nginx: a('nginx.svg'),
 	Numpy: a('numpy.svg'),
